@@ -16,6 +16,8 @@
 		02E108D7253337A500D8B69F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02E108D5253337A500D8B69F /* LaunchScreen.storyboard */; };
 		02E108E2253337A600D8B69F /* Note_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E108E1253337A600D8B69F /* Note_AppTests.swift */; };
 		02E108ED253337A600D8B69F /* Note_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E108EC253337A600D8B69F /* Note_AppUITests.swift */; };
+		02F3CE9F2533415700FAED1A /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F3CE9E2533415700FAED1A /* ListViewController.swift */; };
+		02F3CEA42533443E00FAED1A /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F3CEA32533443E00FAED1A /* NoteCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		02E108E8253337A600D8B69F /* Note AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Note AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02E108EC253337A600D8B69F /* Note_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note_AppUITests.swift; sourceTree = "<group>"; };
 		02E108EE253337A600D8B69F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02F3CE9E2533415700FAED1A /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		02F3CEA32533443E00FAED1A /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 				02E108C9253337A500D8B69F /* SceneDelegate.swift */,
 				02E108CB253337A500D8B69F /* ViewController.swift */,
 				02E108CD253337A500D8B69F /* Main.storyboard */,
+				02F3CEA32533443E00FAED1A /* NoteCell.swift */,
+				02F3CE9E2533415700FAED1A /* ListViewController.swift */,
 				02E108D3253337A500D8B69F /* Assets.xcassets */,
 				02E108D5253337A500D8B69F /* LaunchScreen.storyboard */,
 				02E108D8253337A500D8B69F /* Info.plist */,
@@ -264,6 +270,8 @@
 				02E108CC253337A500D8B69F /* ViewController.swift in Sources */,
 				02E108C8253337A500D8B69F /* AppDelegate.swift in Sources */,
 				02E108CA253337A500D8B69F /* SceneDelegate.swift in Sources */,
+				02F3CEA42533443E00FAED1A /* NoteCell.swift in Sources */,
+				02F3CE9F2533415700FAED1A /* ListViewController.swift in Sources */,
 				02E108D2253337A500D8B69F /* Note_App.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
